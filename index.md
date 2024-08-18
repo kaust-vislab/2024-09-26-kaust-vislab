@@ -39,7 +39,7 @@ For a workshop please delete the following block until the next dashed-line
 {% endcomment %}
 
 
-<div class="alert alert-danger">
+<!-- <div class="alert alert-danger">
 This is the workshop template. Delete these lines and use it to
 <a href="https://carpentries.github.io/workshop-template/customization/index.html">customize</a>
 your own website. If you are running a self-organized workshop or have not put
@@ -52,7 +52,7 @@ set the `pilot` field to `true` in `_config.yml`.
 For workshops teaching a lesson in The Carpentries Incubator,
 remember to uncomment the `incubator_lesson_site`, `incubator_pre_survey`, and `incubator_post_survey`
 fields in `_config.yml`
-</div>
+</div> -->
 
 {% comment %}
 8< ============================= until here ==================
@@ -416,13 +416,13 @@ of code below the Schedule `<h2>` header below with
 {% endcomment %}
 
 <h2 id="schedule">Schedule</h2>
-
-{% if site.carpentry == "swc" %}
+{% include custom-schedule.html %}
+<!-- {% if site.carpentry == "swc" %}
 {% include swc/schedule.html %}
 {% elsif site.carpentry == "dc" %}
 {% include dc/schedule.html %}
 {% elsif site.carpentry == "lc" %}
-{% include lc/schedule.html %}
+{% include lc/schedule.html %} -->
 {% elsif site.carpentry == "incubator" %}
 This workshop is teaching a lesson in 
 <a href="https://carpentries-incubator.org/">The Carpentries Incubator</a>. Please check <a href="{{site.incubator_lesson_site}}">the lesson homepage</a> for a list of lesson sections and estimated timings.
