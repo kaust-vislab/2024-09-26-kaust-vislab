@@ -113,6 +113,19 @@ the pitch.
 {% endcomment %}
 
 <p>
+<p>
+  <a href="https://wiki.vis.kaust.edu.sa/">The KAUST Visualization Lab</a> is hosting an <em>Introduction to Data Science Workshop</em> 
+
+</p>
+
+<p>
+  This hands-on lesson is part of the <em>Introduction to Data Science Workshop Series</em> 
+  being offered by KVL as part of our on-going efforts to build 
+  capacity in core data science skills both at KAUST and within the Kingdom of Saudi Arabia (KSA). 
+</p>
+
+
+
 <strong><a href="https://carpentries.org">The Carpentries</a></strong> project comprises the <a
 href="{{site.swc_site}}">Software Carpentry</a>, <a href="{{site.dc_site}}">Data Carpentry</a>, and
 <a href="{{site.lc_site}}">Library Carpentry</a> communities of Instructors, Trainers, Maintainers,
@@ -424,9 +437,9 @@ of code below the Schedule `<h2>` header below with
 {% elsif site.carpentry == "lc" %}
 {% include lc/schedule.html %} -->
 {% elsif site.carpentry == "incubator" %}
-This workshop is teaching a lesson in 
+<!-- This workshop is teaching a lesson in 
 <a href="https://carpentries-incubator.org/">The Carpentries Incubator</a>. Please check <a href="{{site.incubator_lesson_site}}">the lesson homepage</a> for a list of lesson sections and estimated timings.
-{% endif %}
+{% endif %} -->
 
 {% comment %}
 Edit/replace the text above if you want to include a schedule table.
